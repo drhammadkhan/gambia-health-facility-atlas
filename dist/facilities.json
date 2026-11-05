@@ -25,7 +25,58 @@
     "generalLevelEvidence": "Named hospital in strategic plan",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Secondary",
-    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 15,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33111",
@@ -52,7 +103,58 @@
     "generalLevelEvidence": "Derived from historical type / district designation",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities."
+    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 11,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33143",
@@ -79,7 +181,58 @@
     "generalLevelEvidence": "Derived from historical type / district designation",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities."
+    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 34,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 25,
+          "note": "Numeric row retained; narrative staffing conclusions are internally inconsistent."
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33129",
@@ -106,7 +259,110 @@
     "generalLevelEvidence": "Named hospital in strategic plan",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Secondary",
-    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026.",
+    "public": {
+      "services": [
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.13\u201314",
+          "note": ""
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.13\u201314",
+          "note": ""
+        },
+        {
+          "key": "cs",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.13\u201314",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "locator": "",
+          "note": "Activity described in annual-review media account; no live readiness verified."
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "locator": "",
+          "note": "Activity described in annual-review media account; no live readiness verified."
+        },
+        {
+          "key": "surgery",
+          "status": "yes",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "locator": "",
+          "note": "Activity described in annual-review media account; no live readiness verified."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Medical doctors",
+          "value": 30,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "scope": "Reported cadre count; cadres not summed into total staff.",
+          "locator": "Annual review media account",
+          "referenceMinimum": null,
+          "note": ""
+        },
+        {
+          "cadre": "Midwives",
+          "value": 71,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "scope": "Reported cadre count; cadres not summed into total staff.",
+          "locator": "Annual review media account",
+          "referenceMinimum": null,
+          "note": ""
+        },
+        {
+          "cadre": "General nurses",
+          "value": 61,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "scope": "Reported cadre count; cadres not summed into total staff.",
+          "locator": "Annual review media account",
+          "referenceMinimum": null,
+          "note": ""
+        },
+        {
+          "cadre": "Laboratory technicians",
+          "value": 10,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "scope": "Reported cadre count; cadres not summed into total staff.",
+          "locator": "Annual review media account",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33159",
@@ -133,7 +389,138 @@
     "generalLevelEvidence": "Named hospital in strategic plan",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Secondary",
-    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "emergency",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "postnatal",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "physio",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "dental",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "imaging",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "immunisation",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 16,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33126",
@@ -162,7 +549,69 @@
     "generalLevelEvidence": "Named hospital in strategic plan",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Tertiary",
-    "neonatalLevelBasis": "Tertiary neonatal service: HF November 2025 mission report; confirmed by Dr Hammad Khan, 5 November 2026."
+    "neonatalLevelBasis": "Tertiary neonatal service: HF November 2025 mission report; confirmed by Dr Hammad Khan, 5 November 2026.",
+    "public": {
+      "services": [
+        {
+          "key": "emergency",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "surgery",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "cardiology",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "imaging",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        }
+      ],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33100",
@@ -189,7 +638,74 @@
     "generalLevelEvidence": "Derived from historical type / district designation",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities."
+    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "cs",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed p.11",
+          "note": "Audit verified all nine EmOC signal functions at the visit."
+        },
+        {
+          "key": "transfusion",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed p.11",
+          "note": "Audit verified all nine EmOC signal functions at the visit."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 12,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33127",
@@ -216,7 +732,130 @@
     "generalLevelEvidence": "Derived from historical type / district designation",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities."
+    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities.",
+    "public": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "familyPlanning",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "hiv",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "tb",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "eye",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "immunisation",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "pharmacy",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.14\u201315",
+          "note": ""
+        },
+        {
+          "key": "lab",
+          "status": "limited",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.15\u201316",
+          "note": "Services listed, but challenges cite non-functioning laboratory and limited test kits; conflicting passages retained as limited/uncertain."
+        },
+        {
+          "key": "cs",
+          "status": "no",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed p.16",
+          "note": "No functioning theatre reported; no ongoing surgical capability inferred."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Total staff (including support roles)",
+          "value": 125,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "scope": "Whole facility, clinical and non-clinical; not a count of health professionals alone.",
+          "locator": "Printed p.14",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33084",
@@ -243,7 +882,58 @@
     "generalLevelEvidence": "Named hospital in strategic plan",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Secondary",
-    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 11,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33076",
@@ -270,7 +960,58 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities."
+    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 2,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 2,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33133",
@@ -297,7 +1038,90 @@
     "generalLevelEvidence": "Named hospital in strategic plan",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Secondary",
-    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026.",
+    "public": {
+      "services": [
+        {
+          "key": "emergency",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "surgery",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "dental",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "pharmacy",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Total staff (all cadres)",
+          "value": 540,
+          "operator": ">",
+          "measure": "Headcount",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "scope": "Clinical and other cadres; not a count of doctors or nurses.",
+          "locator": "CEO statement",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "njau",
@@ -324,7 +1148,12 @@
     "generalLevelEvidence": "Not established",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities."
+    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33083",
@@ -351,7 +1180,74 @@
     "generalLevelEvidence": "Derived from historical type / district designation",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities."
+    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "cs",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed pp.12\u201313",
+          "note": "Not performed at audit visit; do not treat as current status."
+        },
+        {
+          "key": "transfusion",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed pp.12\u201313",
+          "note": "Not performed at audit visit; do not treat as current status."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 11,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33136",
@@ -378,7 +1274,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities."
+    "neonatalLevelBasis": "Primary neonatal unit: designated by Dr Hammad Khan, 5 November 2026, for the remaining previously unclassified neonatal assessment facilities.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33097",
@@ -399,7 +1300,53 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "postnatal",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        }
+      ],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33138",
@@ -420,7 +1367,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33110",
@@ -441,7 +1393,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33098",
@@ -462,7 +1419,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33139",
@@ -483,7 +1445,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33122",
@@ -504,7 +1471,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33123",
@@ -525,7 +1497,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33124",
@@ -546,7 +1523,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33061",
@@ -567,7 +1549,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33140",
@@ -588,7 +1575,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33141",
@@ -609,7 +1601,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33142",
@@ -630,7 +1627,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33062",
@@ -651,7 +1653,58 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 2,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 2,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33125",
@@ -672,7 +1725,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33144",
@@ -693,7 +1751,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33099",
@@ -714,7 +1777,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33072",
@@ -735,7 +1803,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33063",
@@ -756,7 +1829,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33064",
@@ -777,7 +1855,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33085",
@@ -798,7 +1881,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33112",
@@ -819,7 +1907,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33113",
@@ -840,7 +1933,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33073",
@@ -861,7 +1959,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33086",
@@ -882,7 +1985,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33145",
@@ -903,7 +2011,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33101",
@@ -924,7 +2037,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33114",
@@ -945,7 +2063,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33115",
@@ -966,7 +2089,58 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 1,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 2,
+          "note": "Numeric row retained; narrative staffing conclusions are internally inconsistent."
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33128",
@@ -987,7 +2161,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33116",
@@ -1008,7 +2187,34 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "outreach",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.32\u201333",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Total staff",
+          "value": 21,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "scope": "Facility total; cadre breakdown not published.",
+          "locator": "Printed p.32",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33117",
@@ -1029,7 +2235,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33102",
@@ -1050,7 +2261,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33146",
@@ -1071,7 +2287,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33087",
@@ -1092,7 +2313,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33065",
@@ -1113,7 +2339,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33147",
@@ -1134,7 +2365,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33066",
@@ -1155,7 +2391,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33074",
@@ -1176,7 +2417,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33148",
@@ -1197,7 +2443,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33075",
@@ -1218,7 +2469,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33103",
@@ -1239,7 +2495,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33149",
@@ -1260,7 +2521,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33150",
@@ -1281,7 +2547,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33067",
@@ -1302,7 +2573,58 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 3,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 2,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33088",
@@ -1323,7 +2645,37 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [
+        {
+          "cadre": "Trained staff (unspecified cadres)",
+          "value": 5,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "scope": "Reported category only; not total workforce.",
+          "locator": "Printed p.23",
+          "referenceMinimum": null,
+          "note": ""
+        },
+        {
+          "cadre": "Public health officers",
+          "value": 3,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "scope": "Separate reported category; overlap with trained staff not resolved.",
+          "locator": "Printed p.23",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33104",
@@ -1344,7 +2696,77 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "postnatal",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.21\u201322",
+          "note": ""
+        },
+        {
+          "key": "immunisation",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed p.21",
+          "note": ""
+        },
+        {
+          "key": "familyPlanning",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed p.21",
+          "note": ""
+        },
+        {
+          "key": "outreach",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed p.21",
+          "note": ""
+        }
+      ],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33077",
@@ -1365,7 +2787,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33118",
@@ -1386,7 +2813,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33078",
@@ -1407,7 +2839,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33151",
@@ -1428,7 +2865,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33068",
@@ -1449,7 +2891,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33105",
@@ -1470,7 +2917,70 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 2,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 14,
+          "note": ""
+        },
+        {
+          "cadre": "Registered nurses",
+          "value": 2,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "scope": "Separate historical nursing count; not all health workers.",
+          "locator": "Printed p.21",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33069",
@@ -1491,7 +3001,146 @@
     "generalLevelEvidence": "Derived from historical type / district designation",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "cs",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed pp.12\u201313",
+          "note": "Not performed at audit visit; do not treat as current status."
+        },
+        {
+          "key": "transfusion",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed pp.12\u201313",
+          "note": "Not performed at audit visit; do not treat as current status."
+        },
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        },
+        {
+          "key": "familyPlanning",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        },
+        {
+          "key": "hiv",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        },
+        {
+          "key": "tb",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        },
+        {
+          "key": "immunisation",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        },
+        {
+          "key": "outreach",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed pp.24\u201325",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 3,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18\u201319",
+          "referenceMinimum": 14,
+          "note": ""
+        }
+      ],
+      "notes": []
+    }
   },
   {
     "id": "33119",
@@ -1512,7 +3161,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33079",
@@ -1533,7 +3187,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33130",
@@ -1554,7 +3213,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33152",
@@ -1575,7 +3239,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33153",
@@ -1596,7 +3265,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33154",
@@ -1617,7 +3291,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33106",
@@ -1638,7 +3317,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33107",
@@ -1659,7 +3343,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33080",
@@ -1680,7 +3369,79 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "emergency",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Doctors",
+          "value": 3,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "scope": "Keneba clinic only; nursing/midwifery team size unspecified.",
+          "locator": "",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": [
+        {
+          "text": "Provider issued a February 2025 strike-related suspension notice with limited outpatient reopening. The undated service directory is descriptive; current operation has not been confirmed.",
+          "source": "keneba-strike"
+        }
+      ]
+    }
   },
   {
     "id": "33108",
@@ -1701,7 +3462,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33155",
@@ -1722,7 +3488,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33089",
@@ -1743,7 +3514,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33081",
@@ -1764,7 +3540,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33109",
@@ -1785,7 +3566,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33131",
@@ -1806,7 +3592,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33090",
@@ -1827,7 +3618,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33091",
@@ -1848,7 +3644,12 @@
     "generalLevelEvidence": "Derived from historical type / district designation",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33092",
@@ -1869,7 +3670,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33093",
@@ -1890,7 +3696,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33120",
@@ -1911,7 +3722,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33132",
@@ -1932,7 +3748,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33082",
@@ -1953,7 +3774,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33156",
@@ -1974,7 +3800,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33135",
@@ -1995,7 +3826,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33094",
@@ -2016,7 +3852,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33095",
@@ -2037,7 +3878,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33070",
@@ -2058,7 +3904,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33096",
@@ -2079,7 +3930,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33134",
@@ -2100,7 +3956,21 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June\u2013July 2022",
+          "locator": "Printed p.13",
+          "note": "Preventive/curative care reported with 24-hour operation; no live schedule verified."
+        }
+      ],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33157",
@@ -2121,7 +3991,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33158",
@@ -2142,7 +4017,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33071",
@@ -2163,7 +4043,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33160",
@@ -2184,7 +4069,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33137",
@@ -2205,7 +4095,12 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   },
   {
     "id": "33121",
@@ -2226,6 +4121,11 @@
     "generalLevelEvidence": "Derived from historical facility type",
     "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
     "neonatalLevel": "Unclassified",
-    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.",
+    "public": {
+      "services": [],
+      "workforce": [],
+      "notes": []
+    }
   }
 ]

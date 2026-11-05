@@ -1,0 +1,1595 @@
+{
+  "reviewedAt": "2026-11-05",
+  "sources": {
+    "nao": {
+      "title": "National Audit Office — EmOC follow-up audit",
+      "url": "https://nao.gm/wp-content/uploads/2025/04/FOLLOW-UP-EmOC.pdf",
+      "published": "April 2023",
+      "observed": "6–10 December 2022",
+      "kind": "Official audit"
+    },
+    "assembly": {
+      "title": "National Assembly — health-facility inspection",
+      "url": "https://nawatch.org/wp-content/uploads/2023/04/FINAL-REPORT-OF-THE-SELECT-COMMITTEE-ON-HEALTH.pdf",
+      "published": "Report of 2022 visits; public copy uploaded April 2023",
+      "observed": "29 June–6 July 2022",
+      "kind": "Official inspection; public mirror"
+    },
+    "efsth": {
+      "title": "EFSTH — published services",
+      "url": "https://www.efsth.gm/services",
+      "published": "Undated webpage",
+      "observed": "Not stated",
+      "kind": "Provider website"
+    },
+    "bwiam": {
+      "title": "Bwiam General Hospital — published services",
+      "url": "https://bwiamgeneralhospital.com/services/",
+      "published": "Undated webpage",
+      "observed": "Not stated",
+      "kind": "Provider website"
+    },
+    "kanifing": {
+      "title": "The Point — hospital CEO service and staffing account",
+      "url": "https://thepoint.gm/africa/gambia/national-news/kanifing-general-hospital-inaugurates-new-board",
+      "published": "11 May 2022",
+      "observed": "May 2022",
+      "kind": "Media account quoting hospital CEO"
+    },
+    "bundung": {
+      "title": "Sunurew — Bundung 2023 performance review",
+      "url": "https://sunurew.weebly.com/latest-news/bundung-maternity-hospital-2nd-annual-review",
+      "published": "2024; page displays 8/3/2024",
+      "observed": "2023 performance review",
+      "kind": "Media account of hospital review"
+    },
+    "keneba": {
+      "title": "LSHTM / MRC Gambia — Clinical Services Department",
+      "url": "https://www.lshtm.ac.uk/research/units/mrc-gambia/clinical-services-department",
+      "published": "Undated webpage",
+      "observed": "Not stated",
+      "kind": "Provider website"
+    },
+    "keneba-strike": {
+      "title": "LSHTM — clinical service suspension notice",
+      "url": "https://www.lshtm.ac.uk/research/units/mrc-gambia/news/448306/public-announcement-strike-mrcg-and-suspension-clinical-services-fajara-and",
+      "published": "12 February 2025",
+      "observed": "February 2025",
+      "kind": "Provider operational notice"
+    }
+  },
+  "serviceLabels": {
+    "outpatient": "Outpatient care",
+    "inpatient": "Inpatient care",
+    "emergency": "Emergency care",
+    "paediatrics": "Child health / paediatrics",
+    "maternity": "Maternity / delivery care",
+    "antenatal": "Antenatal care",
+    "postnatal": "Postnatal care",
+    "ultrasound": "Obstetric ultrasound",
+    "anaemia": "Anaemia testing",
+    "hypertension": "Obstetric hypertension management",
+    "cs": "Caesarean section",
+    "transfusion": "Blood transfusion",
+    "surgery": "Surgery",
+    "lab": "Laboratory services",
+    "imaging": "Radiology / imaging",
+    "cardiology": "Cardiology",
+    "dental": "Dental care",
+    "physio": "Physiotherapy",
+    "immunisation": "Immunisation",
+    "familyPlanning": "Family planning",
+    "hiv": "HIV testing / counselling",
+    "tb": "TB services",
+    "eye": "Eye care",
+    "pharmacy": "Pharmacy / dispensing",
+    "outreach": "RCH outreach"
+  },
+  "facilities": {
+    "33060": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 15,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33111": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 11,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33143": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 34,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 25,
+          "note": "Numeric row retained; narrative staffing conclusions are internally inconsistent."
+        }
+      ],
+      "notes": []
+    },
+    "33062": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 2,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 2,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33159": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "emergency",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "postnatal",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "physio",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "dental",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "imaging",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        },
+        {
+          "key": "immunisation",
+          "status": "yes",
+          "source": "bwiam",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Service heading listed by provider; specific scanners, ICU and equipment readiness not verified."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 16,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33100": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "cs",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed p.11",
+          "note": "Audit verified all nine EmOC signal functions at the visit."
+        },
+        {
+          "key": "transfusion",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed p.11",
+          "note": "Audit verified all nine EmOC signal functions at the visit."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 12,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33084": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 11,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33115": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 1,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 2,
+          "note": "Numeric row retained; narrative staffing conclusions are internally inconsistent."
+        }
+      ],
+      "notes": []
+    },
+    "33076": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 2,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 2,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33067": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 3,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 2,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33105": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 2,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 14,
+          "note": ""
+        },
+        {
+          "cadre": "Registered nurses",
+          "value": 2,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "scope": "Separate historical nursing count; not all health workers.",
+          "locator": "Printed p.21",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33069": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "cs",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed pp.12–13",
+          "note": "Not performed at audit visit; do not treat as current status."
+        },
+        {
+          "key": "transfusion",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed pp.12–13",
+          "note": "Not performed at audit visit; do not treat as current status."
+        },
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        },
+        {
+          "key": "familyPlanning",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        },
+        {
+          "key": "hiv",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        },
+        {
+          "key": "tb",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        },
+        {
+          "key": "immunisation",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        },
+        {
+          "key": "outreach",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.24–25",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 3,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 14,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33083": {
+      "services": [
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": "Antenatal health education and promotion recorded; not proof of the full ANC package."
+        },
+        {
+          "key": "ultrasound",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "anaemia",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "hypertension",
+          "status": "yes",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Appendix 3, printed p.20",
+          "note": ""
+        },
+        {
+          "key": "cs",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed pp.12–13",
+          "note": "Not performed at audit visit; do not treat as current status."
+        },
+        {
+          "key": "transfusion",
+          "status": "no",
+          "source": "nao",
+          "asOf": "December 2022",
+          "locator": "Findings, printed pp.12–13",
+          "note": "Not performed at audit visit; do not treat as current status."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Midwives available for EmOC",
+          "value": 11,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "nao",
+          "asOf": "December 2022",
+          "scope": "Registered, enrolled and community-health nurse midwives; not total facility workforce.",
+          "locator": "Appendix 2, printed pp.18–19",
+          "referenceMinimum": 25,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33127": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "familyPlanning",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "hiv",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "tb",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "eye",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "immunisation",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "pharmacy",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.14–15",
+          "note": ""
+        },
+        {
+          "key": "lab",
+          "status": "limited",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.15–16",
+          "note": "Services listed, but challenges cite non-functioning laboratory and limited test kits; conflicting passages retained as limited/uncertain."
+        },
+        {
+          "key": "cs",
+          "status": "no",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed p.16",
+          "note": "No functioning theatre reported; no ongoing surgical capability inferred."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Total staff (including support roles)",
+          "value": 125,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "scope": "Whole facility, clinical and non-clinical; not a count of health professionals alone.",
+          "locator": "Printed p.14",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33104": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "postnatal",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "immunisation",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed p.21",
+          "note": ""
+        },
+        {
+          "key": "familyPlanning",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed p.21",
+          "note": ""
+        },
+        {
+          "key": "outreach",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed p.21",
+          "note": ""
+        }
+      ],
+      "workforce": [],
+      "notes": []
+    },
+    "33097": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "postnatal",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.21–22",
+          "note": ""
+        }
+      ],
+      "workforce": [],
+      "notes": []
+    },
+    "33134": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed p.13",
+          "note": "Preventive/curative care reported with 24-hour operation; no live schedule verified."
+        }
+      ],
+      "workforce": [],
+      "notes": []
+    },
+    "33129": {
+      "services": [
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.13–14",
+          "note": ""
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.13–14",
+          "note": ""
+        },
+        {
+          "key": "cs",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.13–14",
+          "note": ""
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "locator": "",
+          "note": "Activity described in annual-review media account; no live readiness verified."
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "locator": "",
+          "note": "Activity described in annual-review media account; no live readiness verified."
+        },
+        {
+          "key": "surgery",
+          "status": "yes",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "locator": "",
+          "note": "Activity described in annual-review media account; no live readiness verified."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Medical doctors",
+          "value": 30,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "scope": "Reported cadre count; cadres not summed into total staff.",
+          "locator": "Annual review media account",
+          "referenceMinimum": null,
+          "note": ""
+        },
+        {
+          "cadre": "Midwives",
+          "value": 71,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "scope": "Reported cadre count; cadres not summed into total staff.",
+          "locator": "Annual review media account",
+          "referenceMinimum": null,
+          "note": ""
+        },
+        {
+          "cadre": "General nurses",
+          "value": 61,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "scope": "Reported cadre count; cadres not summed into total staff.",
+          "locator": "Annual review media account",
+          "referenceMinimum": null,
+          "note": ""
+        },
+        {
+          "cadre": "Laboratory technicians",
+          "value": 10,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "bundung",
+          "asOf": "2023 review, published 2024",
+          "scope": "Reported cadre count; cadres not summed into total staff.",
+          "locator": "Annual review media account",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33116": {
+      "services": [
+        {
+          "key": "outreach",
+          "status": "yes",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "locator": "Printed pp.32–33",
+          "note": ""
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Total staff",
+          "value": 21,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "scope": "Facility total; cadre breakdown not published.",
+          "locator": "Printed p.32",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33088": {
+      "services": [],
+      "workforce": [
+        {
+          "cadre": "Trained staff (unspecified cadres)",
+          "value": 5,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "scope": "Reported category only; not total workforce.",
+          "locator": "Printed p.23",
+          "referenceMinimum": null,
+          "note": ""
+        },
+        {
+          "cadre": "Public health officers",
+          "value": 3,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "assembly",
+          "asOf": "June–July 2022",
+          "scope": "Separate reported category; overlap with trained staff not resolved.",
+          "locator": "Printed p.23",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33126": {
+      "services": [
+        {
+          "key": "emergency",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "surgery",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "cardiology",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "imaging",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "efsth",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Listed by provider; functionality and staffing not independently verified."
+        }
+      ],
+      "workforce": [],
+      "notes": []
+    },
+    "33133": {
+      "services": [
+        {
+          "key": "emergency",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "surgery",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "dental",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "lab",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        },
+        {
+          "key": "pharmacy",
+          "status": "yes",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "locator": "",
+          "note": "Hospital CEO account reported by The Point; historical."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Total staff (all cadres)",
+          "value": 540,
+          "operator": ">",
+          "measure": "Headcount",
+          "source": "kanifing",
+          "asOf": "May 2022",
+          "scope": "Clinical and other cadres; not a count of doctors or nurses.",
+          "locator": "CEO statement",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": []
+    },
+    "33080": {
+      "services": [
+        {
+          "key": "outpatient",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "paediatrics",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "antenatal",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "maternity",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "emergency",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        },
+        {
+          "key": "inpatient",
+          "status": "yes",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "locator": "",
+          "note": "Provider describes limited midwifery and a two-bed ward; live service status unconfirmed."
+        }
+      ],
+      "workforce": [
+        {
+          "cadre": "Doctors",
+          "value": 3,
+          "operator": "=",
+          "measure": "Headcount",
+          "source": "keneba",
+          "asOf": "Undated; accessed 5 November 2026",
+          "scope": "Keneba clinic only; nursing/midwifery team size unspecified.",
+          "locator": "",
+          "referenceMinimum": null,
+          "note": ""
+        }
+      ],
+      "notes": [
+        {
+          "text": "Provider issued a February 2025 strike-related suspension notice with limited outpatient reopening. The undated service directory is descriptive; current operation has not been confirmed.",
+          "source": "keneba-strike"
+        }
+      ]
+    }
+  }
+}

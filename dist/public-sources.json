@@ -1,0 +1,88 @@
+{
+  "reviewedAt": "2026-11-05",
+  "sources": {
+    "nao": {
+      "title": "National Audit Office — EmOC follow-up audit",
+      "url": "https://nao.gm/wp-content/uploads/2025/04/FOLLOW-UP-EmOC.pdf",
+      "published": "April 2023",
+      "observed": "6–10 December 2022",
+      "kind": "Official audit"
+    },
+    "assembly": {
+      "title": "National Assembly — health-facility inspection",
+      "url": "https://nawatch.org/wp-content/uploads/2023/04/FINAL-REPORT-OF-THE-SELECT-COMMITTEE-ON-HEALTH.pdf",
+      "published": "Report of 2022 visits; public copy uploaded April 2023",
+      "observed": "29 June–6 July 2022",
+      "kind": "Official inspection; public mirror"
+    },
+    "efsth": {
+      "title": "EFSTH — published services",
+      "url": "https://www.efsth.gm/services",
+      "published": "Undated webpage",
+      "observed": "Not stated",
+      "kind": "Provider website"
+    },
+    "bwiam": {
+      "title": "Bwiam General Hospital — published services",
+      "url": "https://bwiamgeneralhospital.com/services/",
+      "published": "Undated webpage",
+      "observed": "Not stated",
+      "kind": "Provider website"
+    },
+    "kanifing": {
+      "title": "The Point — hospital CEO service and staffing account",
+      "url": "https://thepoint.gm/africa/gambia/national-news/kanifing-general-hospital-inaugurates-new-board",
+      "published": "11 May 2022",
+      "observed": "May 2022",
+      "kind": "Media account quoting hospital CEO"
+    },
+    "bundung": {
+      "title": "Sunurew — Bundung 2023 performance review",
+      "url": "https://sunurew.weebly.com/latest-news/bundung-maternity-hospital-2nd-annual-review",
+      "published": "2024; page displays 8/3/2024",
+      "observed": "2023 performance review",
+      "kind": "Media account of hospital review"
+    },
+    "keneba": {
+      "title": "LSHTM / MRC Gambia — Clinical Services Department",
+      "url": "https://www.lshtm.ac.uk/research/units/mrc-gambia/clinical-services-department",
+      "published": "Undated webpage",
+      "observed": "Not stated",
+      "kind": "Provider website"
+    },
+    "keneba-strike": {
+      "title": "LSHTM — clinical service suspension notice",
+      "url": "https://www.lshtm.ac.uk/research/units/mrc-gambia/news/448306/public-announcement-strike-mrcg-and-suspension-clinical-services-fajara-and",
+      "published": "12 February 2025",
+      "observed": "February 2025",
+      "kind": "Provider operational notice"
+    }
+  },
+  "serviceLabels": {
+    "outpatient": "Outpatient care",
+    "inpatient": "Inpatient care",
+    "emergency": "Emergency care",
+    "paediatrics": "Child health / paediatrics",
+    "maternity": "Maternity / delivery care",
+    "antenatal": "Antenatal care",
+    "postnatal": "Postnatal care",
+    "ultrasound": "Obstetric ultrasound",
+    "anaemia": "Anaemia testing",
+    "hypertension": "Obstetric hypertension management",
+    "cs": "Caesarean section",
+    "transfusion": "Blood transfusion",
+    "surgery": "Surgery",
+    "lab": "Laboratory services",
+    "imaging": "Radiology / imaging",
+    "cardiology": "Cardiology",
+    "dental": "Dental care",
+    "physio": "Physiotherapy",
+    "immunisation": "Immunisation",
+    "familyPlanning": "Family planning",
+    "hiv": "HIV testing / counselling",
+    "tb": "TB services",
+    "eye": "Eye care",
+    "pharmacy": "Pharmacy / dispensing",
+    "outreach": "RCH outreach"
+  }
+}
