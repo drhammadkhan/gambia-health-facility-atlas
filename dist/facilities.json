@@ -4,7 +4,6 @@
     "name": "Ahmadiyya Muslim Hospital",
     "aliases": "Ahamdia Hospital",
     "type": "Hospital",
-    "level": "Tertiary",
     "region": "Tallinding / Kanifing",
     "ownership": "Faith-based",
     "lat": 13.4208,
@@ -12,7 +11,6 @@
     "locationSource": "OpenStreetMap via Mapcarta; node 10997434543",
     "locationUrl": "https://mapcarta.com/N10997434543",
     "approx": false,
-    "levelBasis": "NHIA hospital network: general hospital; care-level grouping inferred.",
     "assessed": true,
     "resources": {
       "photo": "no",
@@ -20,14 +18,17 @@
       "power": "yes",
       "solar": "yes",
       "water": "yes"
-    }
+    },
+    "generalLevel": "Tertiary",
+    "generalLevelBasis": "NHIA hospital network: general hospital; care-level grouping inferred.",
+    "neonatalLevel": "Primary",
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
   },
   {
     "id": "33060",
     "name": "Bansang General Hospital",
     "aliases": "Bansang Hospital",
     "type": "Hospital",
-    "level": "Tertiary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.434229,
@@ -44,14 +45,16 @@
       "water": "no",
       "surgery": "yes"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Tertiary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Secondary",
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
   },
   {
     "id": "33111",
     "name": "Basse District Hospital",
     "aliases": "Basse Major Health Centre",
     "type": "Health Centre (major)",
-    "level": "Secondary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.310837,
@@ -67,14 +70,16 @@
       "solar": "yes",
       "water": "no"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Secondary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33143",
     "name": "Brikama Health Centre",
     "aliases": "Brikama Major Health Centre",
     "type": "Health Centre (major)",
-    "level": "Secondary",
     "region": "Western Health Region 2",
     "ownership": "MoH",
     "lat": 13.272663,
@@ -90,14 +95,16 @@
       "solar": "no",
       "water": "no"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Secondary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33129",
     "name": "Bundung Maternal and Child Health Hospital",
     "aliases": "Jammeh Foundation For Peace Hospital",
     "type": "Hospital",
-    "level": "Tertiary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.419038,
@@ -113,14 +120,16 @@
       "solar": "yes",
       "water": "yes"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Tertiary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Secondary",
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
   },
   {
     "id": "33159",
     "name": "Bwiam General Hospital",
     "aliases": "Sulayman Junkung General Hospital",
     "type": "General Hospital Hospital",
-    "level": "Tertiary",
     "region": "Western Health Region 2",
     "ownership": "MoH",
     "lat": 13.231211,
@@ -136,14 +145,16 @@
       "solar": "no",
       "water": "no"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Tertiary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Secondary",
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
   },
   {
     "id": "33126",
     "name": "Edward Francis Small Teaching Hospital",
     "aliases": "Edward Francis Small Teaching Hospital EFSTH Royal Victoria Teaching Hospital",
     "type": "Teaching Hospital",
-    "level": "Tertiary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.454,
@@ -161,14 +172,16 @@
       "surgery": "yes",
       "neonatal": "yes"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Tertiary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Tertiary",
+    "neonatalLevelBasis": "Tertiary neonatal service: HF November 2025 mission report; confirmed by Dr Hammad Khan, 5 November 2026."
   },
   {
     "id": "33100",
     "name": "Essau District Hospital",
     "aliases": "Essau Major Health Centre",
     "type": "Health Centre (major)",
-    "level": "Secondary",
     "region": "North Bank West",
     "ownership": "MoH",
     "lat": 13.482055,
@@ -184,14 +197,16 @@
       "solar": "yes",
       "water": "yes"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Secondary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33127",
     "name": "Fajikunda Major Health Centre",
     "aliases": "Fajikunda Major Health Centre",
     "type": "Health Centre (major)",
-    "level": "Secondary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.42143,
@@ -207,14 +222,16 @@
       "solar": "no",
       "water": "no"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Secondary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33084",
     "name": "Farafenni General Hospital",
     "aliases": "Armed Force Provision Ruling Council  Hospital (Farafenni)",
     "type": "Hospital",
-    "level": "Tertiary",
     "region": "North Bank East",
     "ownership": "MoH",
     "lat": 13.574787,
@@ -230,14 +247,16 @@
       "solar": "yes",
       "water": "yes"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Tertiary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Secondary",
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
   },
   {
     "id": "33076",
     "name": "Kaiaf Minor Health Centre",
     "aliases": "Kaiaf Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "MoH",
     "lat": 13.408264,
@@ -253,14 +272,16 @@
       "solar": "yes",
       "water": "yes"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33133",
     "name": "Kanifing General Hospital",
     "aliases": "Serekunda General Hospital",
     "type": "General Hospital Hospital",
-    "level": "Tertiary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.450096,
@@ -276,14 +297,16 @@
       "solar": "no",
       "water": "yes"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Tertiary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Secondary",
+    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
   },
   {
     "id": "njau",
     "name": "Njau Health Centre",
     "aliases": "Njau",
     "type": "Health Centre (designation unconfirmed)",
-    "level": "Unclassified",
     "region": "Central River",
     "ownership": "Not documented",
     "lat": 13.75,
@@ -291,7 +314,6 @@
     "locationSource": "Njau locality, not verified facility location",
     "locationUrl": "https://nona.net/features/map/placedetail.2212658/Njau/",
     "approx": true,
-    "levelBasis": "Major/minor designation absent from supplied reports.",
     "assessed": true,
     "resources": {
       "photo": "no",
@@ -299,14 +321,17 @@
       "power": "no",
       "solar": "no",
       "water": "yes"
-    }
+    },
+    "generalLevel": "Unclassified",
+    "generalLevelBasis": "Major/minor designation absent from supplied reports.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33083",
     "name": "Soma Major Health Centre",
     "aliases": "Soma Major Health Centre",
     "type": "Health Centre (major)",
-    "level": "Secondary",
     "region": "Lower River",
     "ownership": "MoH",
     "lat": 13.450356,
@@ -322,14 +347,16 @@
       "solar": "yes",
       "water": "no"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Secondary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33136",
     "name": "Sukuta Minor Health Centre",
     "aliases": "Sukuta Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.403,
@@ -345,14 +372,16 @@
       "solar": "no",
       "water": "no"
     },
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33097",
     "name": "Albreda Minor Health Centre",
     "aliases": "Albreda Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "MoH",
     "lat": 13.337419,
@@ -362,14 +391,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33138",
     "name": "Bafrow (Mandinaba) Clinic",
     "aliases": "Bafrow (Mandinaba) Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "NGO",
     "lat": 13.280276,
@@ -379,14 +410,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33110",
     "name": "Baja Kunda Minor Health Centre",
     "aliases": "Baja Kunda Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.472153,
@@ -396,14 +429,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33098",
     "name": "Bakang Clinic",
     "aliases": "Bakang Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "CBO",
     "lat": 13.390528,
@@ -413,14 +448,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33139",
     "name": "Bakary Sambouya Clinic",
     "aliases": "Bakary Sambouya Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.233,
@@ -430,14 +467,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33122",
     "name": "Bakau Minor Health Centre",
     "aliases": "Bakau Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.471433,
@@ -447,14 +486,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33123",
     "name": "Banjul Polyclinic Minor Health Centre",
     "aliases": "Banjul Polyclinic Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.457509,
@@ -464,14 +505,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33124",
     "name": "Banjulinding Minor Health Centre",
     "aliases": "Banjulinding Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.370654,
@@ -481,14 +524,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33061",
     "name": "Bansang RCH Minor Health Centre",
     "aliases": "Bansang RCH Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.434716,
@@ -498,14 +543,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33140",
     "name": "Basori Clinic",
     "aliases": "Basori Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.225895,
@@ -515,14 +562,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33141",
     "name": "Bassen Clinic",
     "aliases": "Bassen Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.1738,
@@ -532,14 +581,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33142",
     "name": "Bondali Clinic",
     "aliases": "Bondali Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.233784,
@@ -549,14 +600,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33062",
     "name": "Brikamaba Minor Health Centre",
     "aliases": "Brikamaba Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.534288,
@@ -566,14 +619,16 @@
     "approx": true,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33125",
     "name": "Brufut Minor Health Centre",
     "aliases": "Brufut Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.379109,
@@ -583,14 +638,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33144",
     "name": "Bulok Clinic",
     "aliases": "Bulok Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "NGO",
     "lat": 13.177477,
@@ -600,14 +657,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33099",
     "name": "Buniadu Clinic",
     "aliases": "Buniadu Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "NGO",
     "lat": 13.483173,
@@ -617,14 +676,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33072",
     "name": "Bureng Minor Health Centre",
     "aliases": "Bureng Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "MoH",
     "lat": 13.420465,
@@ -634,14 +695,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33063",
     "name": "Chamen Minor Health Centre",
     "aliases": "Chamen Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.670059,
@@ -651,14 +714,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33064",
     "name": "Dankunku Minor Health Centre",
     "aliases": "Dankunku Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.569489,
@@ -668,14 +733,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33085",
     "name": "Daru Rilwan Clinic",
     "aliases": "Daru Rilwan Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "NGO",
     "lat": 13.546638,
@@ -685,14 +752,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33112",
     "name": "Demba Kunda Kuta Clinic",
     "aliases": "Demba Kunda Kuta Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "CBO",
     "lat": 13.254727,
@@ -702,14 +771,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33113",
     "name": "Diabugu Minor Health Centre",
     "aliases": "Diabugu Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.388576,
@@ -719,14 +790,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33073",
     "name": "Dongoroba Clinic",
     "aliases": "Dongoroba Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "CBO",
     "lat": 13.380707,
@@ -736,14 +809,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33086",
     "name": "Farafenni RCH Minor Health Centre",
     "aliases": "Farafenni RCH Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "MoH",
     "lat": 13.56967,
@@ -753,14 +828,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33145",
     "name": "Farato Minor Health Centre",
     "aliases": "Farato Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "MoH",
     "lat": 13.31464,
@@ -770,14 +847,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33101",
     "name": "Fass N.Choi Minor Health Centre",
     "aliases": "Fass N.Choi Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "MoH",
     "lat": 13.565421,
@@ -787,14 +866,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33114",
     "name": "Fatoto Minor Health Centre",
     "aliases": "Fatoto Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.398888,
@@ -804,14 +885,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33115",
     "name": "Foday Kunda Minor Health Centre",
     "aliases": "Foday Kunda Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.497084,
@@ -821,14 +904,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33128",
     "name": "GFPA Clinic",
     "aliases": "GFPA Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "NGO",
     "lat": 13.423752,
@@ -838,14 +923,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33116",
     "name": "Gambisara Minor Health Centre",
     "aliases": "Gambisara Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.240384,
@@ -855,14 +942,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33117",
     "name": "Garawol Minor Health Centre",
     "aliases": "Garawol Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.417,
@@ -872,14 +961,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33102",
     "name": "Ginack Clinic",
     "aliases": "Ginack Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "CBO",
     "lat": 13.57856,
@@ -889,14 +980,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33146",
     "name": "Gunjur Minor Health Centre",
     "aliases": "Gunjur Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "MoH",
     "lat": 13.177338,
@@ -906,14 +999,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33087",
     "name": "Illiassa Minor Health Centre",
     "aliases": "Illiassa Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "MoH",
     "lat": 13.561188,
@@ -923,14 +1018,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33065",
     "name": "Jakhaly Clinic",
     "aliases": "Jakhaly Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "NGO",
     "lat": 13.546038,
@@ -940,14 +1037,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33147",
     "name": "Jambajelly Clinic",
     "aliases": "Jambajelly Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.281719,
@@ -957,14 +1056,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33066",
     "name": "Janjangbureh Minor Health Centre",
     "aliases": "Janjangbureh Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.538481,
@@ -974,14 +1075,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33074",
     "name": "Jappineh Clinic",
     "aliases": "Jappineh Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "CBO",
     "lat": 13.42497,
@@ -991,14 +1094,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33148",
     "name": "Jarrol Clinic",
     "aliases": "Jarrol Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.241902,
@@ -1008,14 +1113,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33075",
     "name": "Jiffarong Minor Health Centre",
     "aliases": "Jiffarong Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "MoH",
     "lat": 13.3,
@@ -1025,14 +1132,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33103",
     "name": "Jurunku Clinic",
     "aliases": "Jurunku Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "CBO",
     "lat": 13.418828,
@@ -1042,14 +1151,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33149",
     "name": "Kafuta Minor Health Centre",
     "aliases": "Kafuta Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "MoH",
     "lat": 13.201,
@@ -1059,14 +1170,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33150",
     "name": "Kanilai Clinic",
     "aliases": "Kanilai Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.172768,
@@ -1076,14 +1189,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33067",
     "name": "Kaur Minor Health Centre",
     "aliases": "Kaur Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.699445,
@@ -1093,14 +1208,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33088",
     "name": "Kerewan Minor Health Centre",
     "aliases": "Kerewan Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "MoH",
     "lat": 13.489076,
@@ -1110,14 +1227,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33104",
     "name": "Kerr Cherno Minor Health Centre",
     "aliases": "Kerr Cherno Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "MoH",
     "lat": 13.4558,
@@ -1127,14 +1246,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33077",
     "name": "Kiang Karantaba Minor Health Centre",
     "aliases": "Kiang Karantaba Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "MoH",
     "lat": 13.352116,
@@ -1144,14 +1265,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33118",
     "name": "Koina Minor Health Centre",
     "aliases": "Koina Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.47474,
@@ -1161,14 +1284,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33078",
     "name": "Kolior Clinic",
     "aliases": "Kolior Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "CBO",
     "lat": 13.42272,
@@ -1178,14 +1303,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33151",
     "name": "Kubuneh Clinic",
     "aliases": "Kubuneh Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.321809,
@@ -1195,14 +1322,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33068",
     "name": "Kudang Minor Health Centre",
     "aliases": "Kudang Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.66379,
@@ -1212,14 +1341,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33105",
     "name": "Kuntair Minor Health Centre",
     "aliases": "Kuntair Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "MoH",
     "lat": 13.53434,
@@ -1229,14 +1360,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33069",
     "name": "Kuntaur Major Health Centre",
     "aliases": "Kuntaur Major Health Centre",
     "type": "Health Centre (major)",
-    "level": "Secondary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.667224,
@@ -1246,14 +1379,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Secondary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33119",
     "name": "Kuwonku-Ba Clinic",
     "aliases": "Kuwonku-Ba Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "CBO",
     "lat": 13.379579,
@@ -1263,14 +1398,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33079",
     "name": "Kwinella Minor Health Centre",
     "aliases": "Kwinella Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "MoH",
     "lat": 13.40444,
@@ -1280,14 +1417,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33130",
     "name": "Leman Street Minor Health Centre",
     "aliases": "Leman Street Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.449,
@@ -1297,14 +1436,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33152",
     "name": "Madina Salam Clinic",
     "aliases": "Madina Salam Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.139266,
@@ -1314,14 +1455,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33153",
     "name": "Marakissa Clinic",
     "aliases": "Marakissa Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "NGO",
     "lat": 13.214456,
@@ -1331,14 +1474,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33154",
     "name": "Mayork Clinic",
     "aliases": "Mayork Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.234555,
@@ -1348,14 +1493,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33106",
     "name": "Mccla Balla Manneh Clinic",
     "aliases": "Mccla Balla Manneh Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "CBO",
     "lat": 13.578981,
@@ -1365,14 +1512,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33107",
     "name": "Medina Seringe Mass Clinic",
     "aliases": "Medina Seringe Mass Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "CBO",
     "lat": 13.48937,
@@ -1382,14 +1531,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33080",
     "name": "Mrc Keneba Clinic",
     "aliases": "Mrc Keneba Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "NGO",
     "lat": 13.331565,
@@ -1399,14 +1550,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33108",
     "name": "N'Dungu Kebbe Clinic",
     "aliases": "N'Dungu Kebbe Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "NGO",
     "lat": 13.540238,
@@ -1416,14 +1569,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33155",
     "name": "N'Yofelleh Clinic",
     "aliases": "N'Yofelleh Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.216589,
@@ -1433,14 +1588,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33089",
     "name": "Nawleru Clinic",
     "aliases": "Nawleru Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "NGO",
     "lat": 13.584536,
@@ -1450,14 +1607,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33081",
     "name": "Nema Clinic",
     "aliases": "Nema Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "CBO",
     "lat": 13.412341,
@@ -1467,14 +1626,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33109",
     "name": "Nema Kunku Minor Health Centre",
     "aliases": "Nema Kunku Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank West",
     "ownership": "MoH",
     "lat": 13.413611,
@@ -1484,14 +1645,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33131",
     "name": "New Jeswang Clinic",
     "aliases": "New Jeswang Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "CBO",
     "lat": 13.447144,
@@ -1501,14 +1664,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33090",
     "name": "Ngayen Sanjal Minor Health Centre",
     "aliases": "Ngayen Sanjal Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "MoH",
     "lat": 13.594008,
@@ -1518,14 +1683,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33091",
     "name": "Njaba Kunda Major Health Centre",
     "aliases": "Njaba Kunda Major Health Centre",
     "type": "Health Centre (major)",
-    "level": "Secondary",
     "region": "North Bank East",
     "ownership": "MoH",
     "lat": 13.555463,
@@ -1535,14 +1702,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Secondary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33092",
     "name": "Njawara Clinic",
     "aliases": "Njawara Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "NGO",
     "lat": 13.576239,
@@ -1552,14 +1721,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33093",
     "name": "No Kunda Clinic",
     "aliases": "No Kunda Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "NGO",
     "lat": 13.561691,
@@ -1569,14 +1740,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33120",
     "name": "Numuyel Clinic",
     "aliases": "Numuyel Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "CBO",
     "lat": 13.276053,
@@ -1586,14 +1759,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33132",
     "name": "Old Jeswang Clinic",
     "aliases": "Old Jeswang Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "CBO",
     "lat": 13.460607,
@@ -1603,14 +1778,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33082",
     "name": "Pakaliba Minor Health Centre",
     "aliases": "Pakaliba Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Lower River",
     "ownership": "MoH",
     "lat": 13.52032,
@@ -1620,14 +1797,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33156",
     "name": "Pirang Clinic",
     "aliases": "Pirang Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.27133,
@@ -1637,14 +1816,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33135",
     "name": "SOS Clinic",
     "aliases": "SOS Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "NGO",
     "lat": 13.436863,
@@ -1654,14 +1835,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33094",
     "name": "Saaba Clinic",
     "aliases": "Saaba Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "NGO",
     "lat": 13.518011,
@@ -1671,14 +1854,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33095",
     "name": "Salikenni Minor Health Centre",
     "aliases": "Salikenni Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "MoH",
     "lat": 13.485237,
@@ -1688,14 +1873,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33070",
     "name": "Sami Karantaba Minor Health Centre",
     "aliases": "Sami Karantaba Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "MoH",
     "lat": 13.569343,
@@ -1705,14 +1892,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33096",
     "name": "Sara Kunda Minor Health Centre",
     "aliases": "Sara Kunda Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "North Bank East",
     "ownership": "MoH",
     "lat": 13.532866,
@@ -1722,14 +1911,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33134",
     "name": "Serekunda Minor Health Centre",
     "aliases": "Serekunda Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "MoH",
     "lat": 13.443386,
@@ -1739,14 +1930,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33157",
     "name": "Sifoe Clinic",
     "aliases": "Sifoe Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.184971,
@@ -1756,14 +1949,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33158",
     "name": "Sintet Minor Health Centre",
     "aliases": "Sintet Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "MoH",
     "lat": 13.233,
@@ -1773,14 +1968,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33071",
     "name": "St. Lazarus Clinic",
     "aliases": "St. Lazarus Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Central River",
     "ownership": "NGO",
     "lat": 13.497965,
@@ -1790,14 +1987,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33160",
     "name": "Tujereng Clinic",
     "aliases": "Tujereng Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 2",
     "ownership": "CBO",
     "lat": 13.316043,
@@ -1807,14 +2006,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33137",
     "name": "Water For Africa Clinic",
     "aliases": "Water For Africa Clinic",
     "type": "Clinic",
-    "level": "Primary",
     "region": "Western Health Region 1",
     "ownership": "NGO",
     "lat": 13.455377,
@@ -1824,14 +2025,16 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   },
   {
     "id": "33121",
     "name": "Yorobawol Minor Health Centre",
     "aliases": "Yorobawol Minor Health Centre",
     "type": "Health Centre (minor)",
-    "level": "Primary",
     "region": "Upper River",
     "ownership": "MoH",
     "lat": 13.427462,
@@ -1841,6 +2044,9 @@
     "approx": false,
     "assessed": false,
     "resources": {},
-    "levelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation."
+    "generalLevel": "Primary",
+    "generalLevelBasis": "Grouped from recorded facility type; 2021\u20132025 strategic plan executive summary. Verify current designation.",
+    "neonatalLevel": "Unclassified",
+    "neonatalLevelBasis": "Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability."
   }
 ]

@@ -12,6 +12,12 @@ for id,vals in rows:
 for f in data:
  if f['id'] in ['33126','33060']:f['resources']['surgery']='yes'
  if f['id']=='33126':f['resources']['neonatal']='yes'
+neonatal_levels={'ahmadiyya':'Primary','33060':'Secondary','33084':'Secondary','33159':'Secondary','33133':'Secondary','33129':'Secondary','33126':'Tertiary'}
+for f in data:
+ f['generalLevel']=f.pop('level')
+ f['generalLevelBasis']=f.pop('levelBasis')
+ f['neonatalLevel']=neonatal_levels.get(f['id'],'Unclassified')
+ f['neonatalLevelBasis']=('Tertiary neonatal service: HF November 2025 mission report; confirmed by Dr Hammad Khan, 5 November 2026.' if f['id']=='33126' else 'November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026.' if f['id'] in neonatal_levels else 'Neonatal care level is not established by the supplied reports or subsequent clarification. Not inferred from general facility type or equipment availability.')
 data.sort(key=lambda f:(not f['assessed'],f['name']))
 json.dump(data,open(out/'facilities.json','w'),indent=2)
 json.dump({'title':'Facility Resource Assessment Report','date':'12–13 November 2025','author':'Dr Hammad Khan with support from HF Team','columns':['Phototherapy','CPAP','Electricity','Solar','Water'],'records':[{'facility':f['name'],'resources':f['resources']} for f in data if f['assessed']],'notes':['Phototherapy Yes means some but not enough.','No facility reported adequate phototherapy.','Structured CPAP table reports No for all 15. Unattributed workshop comments suggest equipment at some facilities; unresolved conflict.','Electricity and water columns are binary source responses; narratives report intermittency even for some Yes responses.']},open(out/'assessment.json','w'),indent=2)
