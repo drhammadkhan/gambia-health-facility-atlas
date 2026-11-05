@@ -11,16 +11,6 @@
   ],
   "records": [
     {
-      "facility": "Ahmadiyya Muslim Hospital",
-      "resources": {
-        "photo": "no",
-        "cpap": "no",
-        "power": "yes",
-        "solar": "yes",
-        "water": "yes"
-      }
-    },
-    {
       "facility": "Bansang General Hospital",
       "resources": {
         "photo": "yes",

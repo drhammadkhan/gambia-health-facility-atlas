@@ -1,32 +1,5 @@
 [
   {
-    "id": "ahmadiyya",
-    "name": "Ahmadiyya Muslim Hospital",
-    "aliases": "Ahamdia Hospital",
-    "type": "Hospital",
-    "region": "Tallinding / Kanifing",
-    "ownership": "Faith-based",
-    "lat": 13.4208,
-    "lng": -16.67337,
-    "locationSource": "OpenStreetMap via Mapcarta; node 10997434543",
-    "locationUrl": "https://mapcarta.com/N10997434543",
-    "approx": false,
-    "assessed": true,
-    "resources": {
-      "photo": "no",
-      "cpap": "no",
-      "power": "yes",
-      "solar": "yes",
-      "water": "yes"
-    },
-    "generalLevel": "Unclassified",
-    "generalLevelBasis": "The strategic plan does not establish a general-service tier for Ahmadiyya. The NHIA facility-type listing alone is insufficient to confirm a tier; left unclassified.",
-    "generalLevelEvidence": "Not established",
-    "generalLevelSource": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf",
-    "neonatalLevel": "Primary",
-    "neonatalLevelBasis": "November 2025 neonatal workshop context; classification clarified by Dr Hammad Khan, 5 November 2026."
-  },
-  {
     "id": "33060",
     "name": "Bansang General Hospital",
     "aliases": "Bansang Hospital",
