@@ -1,0 +1,173 @@
+{
+  "title": "Facility Resource Assessment Report",
+  "date": "12\u201313 November 2025",
+  "author": "Dr Hammad Khan with support from HF Team",
+  "columns": [
+    "Phototherapy",
+    "CPAP",
+    "Electricity",
+    "Solar",
+    "Water"
+  ],
+  "records": [
+    {
+      "facility": "Ahmadiyya Muslim Hospital",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "yes",
+        "solar": "yes",
+        "water": "yes"
+      }
+    },
+    {
+      "facility": "Bansang General Hospital",
+      "resources": {
+        "photo": "yes",
+        "cpap": "no",
+        "power": "yes",
+        "solar": "no",
+        "water": "no",
+        "surgery": "yes"
+      }
+    },
+    {
+      "facility": "Basse District Hospital",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "no",
+        "solar": "yes",
+        "water": "no"
+      }
+    },
+    {
+      "facility": "Brikama Health Centre",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "no",
+        "solar": "no",
+        "water": "no"
+      }
+    },
+    {
+      "facility": "Bundung Maternal and Child Health Hospital",
+      "resources": {
+        "photo": "yes",
+        "cpap": "no",
+        "power": "yes",
+        "solar": "yes",
+        "water": "yes"
+      }
+    },
+    {
+      "facility": "Bwiam General Hospital",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "no",
+        "solar": "no",
+        "water": "no"
+      }
+    },
+    {
+      "facility": "Edward Francis Small Teaching Hospital",
+      "resources": {
+        "photo": "yes",
+        "cpap": "no",
+        "power": "yes",
+        "solar": "no",
+        "water": "no",
+        "surgery": "yes",
+        "neonatal": "yes"
+      }
+    },
+    {
+      "facility": "Essau District Hospital",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "yes",
+        "solar": "yes",
+        "water": "yes"
+      }
+    },
+    {
+      "facility": "Fajikunda Major Health Centre",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "no",
+        "solar": "no",
+        "water": "no"
+      }
+    },
+    {
+      "facility": "Farafenni General Hospital",
+      "resources": {
+        "photo": "yes",
+        "cpap": "no",
+        "power": "yes",
+        "solar": "yes",
+        "water": "yes"
+      }
+    },
+    {
+      "facility": "Kaiaf Minor Health Centre",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "yes",
+        "solar": "yes",
+        "water": "yes"
+      }
+    },
+    {
+      "facility": "Kanifing General Hospital",
+      "resources": {
+        "photo": "yes",
+        "cpap": "no",
+        "power": "no",
+        "solar": "no",
+        "water": "yes"
+      }
+    },
+    {
+      "facility": "Njau Health Centre",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "no",
+        "solar": "no",
+        "water": "yes"
+      }
+    },
+    {
+      "facility": "Soma Major Health Centre",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "no",
+        "solar": "yes",
+        "water": "no"
+      }
+    },
+    {
+      "facility": "Sukuta Minor Health Centre",
+      "resources": {
+        "photo": "no",
+        "cpap": "no",
+        "power": "no",
+        "solar": "no",
+        "water": "no"
+      }
+    }
+  ],
+  "notes": [
+    "Phototherapy Yes means some but not enough.",
+    "No facility reported adequate phototherapy.",
+    "Structured CPAP table reports No for all 15. Unattributed workshop comments suggest equipment at some facilities; unresolved conflict.",
+    "Electricity and water columns are binary source responses; narratives report intermittency even for some Yes responses."
+  ]
+}
