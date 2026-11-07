@@ -2,7 +2,7 @@
 
 An interactive map for exploring health facilities across The Gambia, with separate views of national health-system levels and neonatal care.
 
-**[Explore the live atlas →](https://gambia-health-facility-atlas.aquaantelope.chatgpt.site/)**
+**[Explore the atlas on GitHub Pages →](https://drhammadkhan.github.io/gambia-health-facility-atlas/)** · [Sites mirror](https://gambia-health-facility-atlas.aquaantelope.chatgpt.site/)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)
 ![Leaflet](https://img.shields.io/badge/Map-Leaflet-199900?logo=leaflet&logoColor=white)
@@ -108,7 +108,9 @@ The data generator uses only Python's standard library. Node.js is optional for 
 
 ## Hosting
 
-Deploy the contents of `dist/` to a static web host. The current production app is hosted with Sites; `.openai/hosting.json` retains that existing project identity. Pushing to this GitHub repository alone does not update the live atlas.
+GitHub Pages serves `dist/` at **https://drhammadkhan.github.io/gambia-health-facility-atlas/**. The workflow in `.github/workflows/pages.yml` publishes automatically when `dist/` changes on `main`, or can be run manually from the Actions tab. No build step or deployment secrets are required.
+
+The existing Sites mirror is managed separately; `.openai/hosting.json` retains its project identity. Pushing to GitHub does not update that mirror. The app can also be deployed to any static host by publishing the contents of `dist/`.
 
 ## Attribution and reuse
 
