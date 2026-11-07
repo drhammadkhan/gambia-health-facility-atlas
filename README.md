@@ -39,11 +39,11 @@ A hospital's general-service level does **not** establish its neonatal capabilit
 | View | Classification basis | Current mapped breakdown |
 | --- | --- | --- |
 | National health facilities | Intended structure in the National Health Sector Strategic Plan 2021–2025, §4.1; historical facility types used where necessary | 88 primary · 7 secondary · 6 tertiary · 1 unclassified |
-| Neonatal health facilities | November 2025 assessment context and subsequent clinical clarification by Dr Hammad Khan | 8 primary · 5 secondary · 1 tertiary |
+| Neonatal health facilities | November 2025 assessment context and the dataset owner's clinical classification | 8 primary · 5 secondary · 1 tertiary |
 
 The strategic plan is inconsistent about the placement of minor health centres (§2.7 versus §4.1). The atlas follows §4.1 and records the discrepancy. Historical type-based assignments are provisional, not current verified designations. Njau remains unclassified for general services.
 
-Neonatal secondary units are Bansang, Farafenni, Bwiam, Kanifing and Bundung MCH. EFSTH is tertiary. The remaining eight retained assessment facilities were designated primary neonatal units by Dr Hammad Khan on 5 November 2026. One facility from the original 15-facility assessment was excluded at the dataset owner's request.
+Neonatal secondary units are Bansang, Farafenni, Bwiam, Kanifing and Bundung MCH. EFSTH is tertiary. The remaining eight retained assessment facilities are primary neonatal units. These neonatal levels are a clinical classification by the dataset owner, Dr Hammad Khan, set on 5 November 2026 (the single attribution point; profiles and the app refer back to it). One facility from the original 15-facility assessment was excluded at the dataset owner's request.
 
 ## Data and provenance
 
@@ -116,4 +116,4 @@ The existing Sites mirror is managed separately; `.openai/hosting.json` retains 
 
 Facility data from Maina et al. are published under **CC BY 4.0**; retain attribution when reusing them. The boundary derives from Natural Earth via [geo-countries](https://github.com/datasets/geo-countries). Basemap tiles are © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). Leaflet retains its upstream license notice in the bundled files.
 
-Other source documents and websites retain their respective rights. This repository does not grant a blanket license to third-party material, and no project-wide software license has yet been selected.
+The project's own code (`dist/app.js`, `dist/style.css`, `dist/index.html`, `build-data.py`) is released under the [MIT License](LICENSE). The licence does **not** cover third-party data or documents: Maina et al. data stay under CC BY 4.0, and other source documents and websites retain their respective rights.

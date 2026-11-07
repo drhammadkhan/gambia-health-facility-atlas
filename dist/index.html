@@ -1,1 +1,223 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Gambia · Health Facility Atlas</title><meta name="description" content="Explore health facilities across The Gambia and reported neonatal care resources from the November 2025 assessment."><link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css"></head><body><header><a class="brand" href="./"><span class="brandmark">✚</span><span>THE GAMBIA <b>Health Facility Atlas</b></span></a><div class="topnote">FACILITY EXPLORER <span>General & neonatal care levels</span></div><button id="sourcesButton" class="light">Data & sources ↗</button></header><main><aside><div class="intro"><div class="eyebrow">HEALTH SYSTEMS / THE GAMBIA</div><p>Explore facilities, levels of care and reported neonatal resources across the country.</p></div><div class="filters"><label for="search">Find a facility</label><input id="search" type="search" placeholder="Search name or locality…"><label for="classification">Care-level classification</label><select id="classification"><option value="general" selected>National Health facilities</option><option value="neonatal">Neonatal heatlh facilities</option></select><div class="filterhead"><label id="levelLabel">General level of care</label><button id="reset">Reset filters</button></div><div id="levels" class="levelbuttons"></div><p id="levelHint" class="hint"></p><label for="coverage">Data coverage</label><select id="coverage"><option value="all">All mapped facilities</option><option value="assessed">November 2025 assessed facilities</option></select><label for="resource">Services & infrastructure</label><select id="resource"><option value="">Any service or resource</option><option value="photo">Phototherapy</option><option value="cpap">CPAP respiratory support</option><option value="power">Electricity</option><option value="solar">Solar backup</option><option value="water">Running water</option><option value="surgery">Paediatric surgery (mission)</option><option value="neonatal">Tertiary neonatal care</option></select><label for="status">Provision status</label><select id="status" disabled><option value="yes">Reported available</option><option value="no">Reported unavailable</option><option value="unknown">Not documented</option><option value="limited">Reported limited / uncertain</option></select><p class="hint">Public service and staffing records use their own dates. Availability reflects source reports, not live service readiness. Phototherapy was reported insufficient wherever present.</p></div><div class="resulthead"><strong id="count" aria-live="polite"></strong><button id="export">↓ Export CSV</button></div><div id="results"></div></aside><section class="maparea" aria-label="Interactive map of health facilities"><div id="map"></div><div class="mapheading"><div class="eyebrow">NATIONAL OVERVIEW</div><h2>Care across The Gambia</h2><p id="mapstats"></p></div><button id="fit" class="fit">⌖ Fit results</button><div class="legend"><b id="legendTitle">General care</b><span><i style="background:#168078"></i>Primary</span><span><i style="background:#d39a31"></i>Secondary</span><span><i style="background:#6654a4"></i>Tertiary</span><span><i style="background:#80909c"></i>Unclassified</span></div><div id="detail" hidden></div></section></main><footer><span>National map • Public-sector facility database + HF / PATG assessment</span><span>Coverage is incomplete; this is not a verified national master register.</span></footer><dialog id="sources"><button id="closeSources" class="close" aria-label="Close">×</button><div class="eyebrow">ABOUT THIS ATLAS</div><h2>Know the data behind the map.</h2><p>The folder contains three November 2025 mission and workshop reports (Word/PDF duplicates), plus a neonatal kidney injury review that supplies no facility inventory. The resource assessment provides structured data for 15 facilities.</p><h3>Public services & workforce</h3><p id="publicCoverageNote"></p><p>These records combine official inspections, audits, provider websites and clearly identified media accounts. Historic counts are headcounts, not current staffing or staff per shift. Cadre counts may overlap and are never summed. Staffing norms are reference requirements, separate from observed counts. Unknown fields remain unknown. Provider service listings do not verify operational readiness or individual equipment. Original neonatal assessment values remain separate.</p><div id="publicSourceList"></div><p><a href="public-records.csv" download>Download public service and workforce records (CSV)</a></p><h3>Original sources</h3><ul><li><a href="assessment.json" target="_blank">Facility Resource Assessment Report — extracted data</a>, PATG workshop, 12–13 November 2025; prepared by Dr Hammad Khan and HF team. “Yes” for phototherapy means some equipment, insufficient capacity.</li><li>HF Paediatric medical mission report, 8–15 November 2025: tertiary neonatal care at EFSTH; mission paediatric surgery at EFSTH and Bansang. Surgery reflects mission activity only.</li><li>PATG Neonatal Capacity-Building Workshop report, 12–13 November 2025. Unattributed comments mention CPAP equipment, conflicting with the structured assessment’s all-“No” CPAP column; this map uses the structured table and retains that uncertainty.</li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6658526/" target="_blank" rel="noopener">Maina et al., 2019: public-sector health facility database</a> (CC BY 4.0), accessed through an <a href="https://services.arcgis.com/5T5nSi527N4F7luB/ArcGIS/rest/services/A_spatial_database_of_health_facilities_managed_by_the_public_health_sector_in_sub_Saharan_Africa_WFL1/FeatureServer" target="_blank" rel="noopener">ArcGIS mirror</a>: 101 Gambian facilities. This historical inventory is not a current operational register. Njau uses an explicitly approximate locality position.</li><li>Facility aliases reconciled against the strategic plan hospital names and <a href="https://nhia.gm/hospital-network/" target="_blank">NHIA hospital network</a>. <a href="https://thepoint.gm/africa/gambia/article/jammehs-memory-is-being-effaced" target="_blank">2017 hospital renamings</a>; <a href="https://www.voicegambia.com/kanifing-general-hospital-reacts-to-the-voice-publication-saying-cash-shortage-was-d59225-not-d700000-as-reported/" target="_blank">Kanifing/Serekunda alias</a>. Resource data attach to these matched facilities, not to neighbouring RCH centres.</li><li><a href="https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf" target="_blank" rel="noopener">National Health Sector Strategic Plan 2021–2025</a>: this view uses the intended structure in section 4.1, printed pp.100–102: minor centres/community clinics → primary; major centres/district hospitals → secondary; general/teaching/specialised hospitals → tertiary. Six mapped hospitals are explicitly named in section 2.7.1 (p.22). Other tier assignments derive from historical facility types and require validation. Njau remains unclassified for general care.</li><li>Country outline: <a href="https://github.com/datasets/geo-countries" target="_blank" rel="noopener">Natural Earth / geo-countries</a>. Basemap: © OpenStreetMap contributors.</li></ul><h3>Two distinct care-level classifications</h3><p><b>Neonatal services:</b> November 2025 workshop context, with explicit clarification from Dr Hammad Khan on 5 November 2026: Bansang, Farafenni, Bwiam, Kanifing and Bundung MCH are secondary; EFSTH is tertiary (also documented in the mission report). These classifications are separate from the workshop equipment table. The neonatal view includes 14 retained assessment facilities: eight primary, five secondary and one tertiary. The eight previously unclassified assessment facilities were designated primary neonatal units by Dr Hammad Khan on 5 November 2026. One facility from the source report has been excluded at the dataset owner’s request. Neonatal levels follow the clinician’s classification rather than being inferred from equipment or general facility type. The wider 102-facility dataset appears only in the general-services view.</p><p><b>General services:</b> the strategic plan grouping described above. Generic clinic records are grouped provisionally from their historical source type, not from a current service audit. A general tertiary designation does not imply tertiary neonatal capability.</p><h3>Strategic plan: source discrepancies</h3><p>Section 2.7.2 (printed p.23) groups both major and minor health centres as secondary. The executive summary and section 4.1 instead place minor centres at primary level. The app consistently follows section 4.1’s intended structure and does not present it as a verified current operational classification. Section 2.7.1 also names Brikama, Soma, Essau and Basse as regional hospitals; this view retains the explicit section 4.1 major-centre/district grouping for these records, with that ambiguity stated in their profiles. The named Sheikh Zayed specialised hospital is absent from the historical map dataset, reinforcing that this is incomplete coverage.</p><h3>Coverage & interpretation</h3><p id="coverageNote"></p><p>Missing data means unknown, not absent. Coordinates marked approximate are locality-level placements, not confirmed facility entrances. This is a planning and exploration tool, not a live referral directory.</p></dialog><script src="vendor/leaflet.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>The Gambia · Health Facility Atlas</title>
+    <meta
+      name="description"
+      content="Explore health facilities across The Gambia and reported neonatal care resources from the November 2025 assessment."
+    />
+    <link rel="stylesheet" href="vendor/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#search">Skip to filters and facility list</a>
+    <header>
+      <a class="brand" href="./"
+        ><span class="brandmark" aria-hidden="true">✚</span
+        ><span>THE GAMBIA <b>Health Facility Atlas</b></span></a
+      >
+      <div class="topnote">FACILITY EXPLORER <span>General & neonatal care levels</span></div>
+      <button id="sourcesButton" class="light">Data & sources ↗</button>
+    </header>
+    <main id="main">
+      <h1 class="sr">The Gambia Health Facility Atlas</h1>
+      <aside>
+        <div class="intro">
+          <div class="eyebrow">HEALTH SYSTEMS / THE GAMBIA</div>
+          <p>Explore facilities, levels of care and reported neonatal resources across the country.</p>
+        </div>
+        <div class="filters">
+          <label for="search">Find a facility</label
+          ><input id="search" type="search" placeholder="Search name or locality…" /><label
+            for="classification"
+            >Care-level classification</label
+          ><select id="classification">
+            <option value="general" selected>National Health facilities</option>
+            <option value="neonatal">Neonatal health facilities</option>
+          </select>
+          <div class="filterhead">
+            <label id="levelLabel">General level of care</label><button id="reset">Reset filters</button>
+          </div>
+          <div id="levels" class="levelbuttons"></div>
+          <p id="levelHint" class="hint"></p>
+          <label for="coverage">Data coverage</label
+          ><select id="coverage">
+            <option value="all">All mapped facilities</option>
+            <option value="assessed">November 2025 assessed facilities</option></select
+          ><label for="resource">Services & infrastructure</label
+          ><select id="resource">
+            <option value="">Any service or resource</option>
+            <option value="photo">Phototherapy</option>
+            <option value="cpap">CPAP respiratory support</option>
+            <option value="power">Electricity</option>
+            <option value="solar">Solar backup</option>
+            <option value="water">Running water</option>
+            <option value="surgery">Paediatric surgery (mission)</option>
+            <option value="neonatal">Tertiary neonatal care</option></select
+          ><label for="status">Provision status</label
+          ><select id="status" disabled>
+            <option value="yes">Reported available</option>
+            <option value="no">Reported unavailable</option>
+            <option value="unknown">Not documented</option>
+            <option value="limited">Reported limited / uncertain</option>
+          </select>
+          <p class="hint">
+            Public service and staffing records use their own dates. Availability reflects source reports, not
+            live service readiness. Phototherapy was reported insufficient wherever present.
+          </p>
+        </div>
+        <div class="resulthead">
+          <strong id="count" aria-live="polite"></strong><button id="export">↓ Export CSV</button>
+        </div>
+        <div id="results"></div>
+      </aside>
+      <section class="maparea" aria-label="Interactive map of health facilities">
+        <div id="map"></div>
+        <div class="mapheading">
+          <div class="eyebrow">NATIONAL OVERVIEW</div>
+          <h2>Care across The Gambia</h2>
+          <p id="mapstats"></p>
+        </div>
+        <button id="fit" class="fit">⌖ Fit results</button>
+        <div class="legend">
+          <b id="legendTitle">General care</b><span><i style="background: #168078"></i>Primary</span
+          ><span><i style="background: #d39a31"></i>Secondary</span
+          ><span><i style="background: #6654a4"></i>Tertiary</span
+          ><span><i style="background: #80909c"></i>Unclassified</span>
+        </div>
+        <div id="detail" hidden tabindex="-1" role="region" aria-label="Facility profile"></div>
+      </section>
+      <button id="toMap" class="tomap" hidden>↑ Back to map</button>
+    </main>
+    <footer>
+      <span>National map • Public-sector facility database + HF / PATG assessment</span
+      ><span>Coverage is incomplete; this is not a verified national master register.</span>
+    </footer>
+    <dialog id="sources" aria-labelledby="sourcesTitle">
+      <button id="closeSources" class="close" aria-label="Close">×</button>
+      <div class="eyebrow">ABOUT THIS ATLAS</div>
+      <h2 id="sourcesTitle">Know the data behind the map.</h2>
+      <p>
+        The atlas combines a historical public-sector facility inventory, the national strategic plan's
+        care-level framework, a November 2025 neonatal resource assessment of 14 facilities, and dated public
+        service and staffing records. Every record keeps its source and observation date.
+      </p>
+      <h3>Classification authority</h3>
+      <p>
+        General care levels follow the national strategic plan. Neonatal care levels are a clinical
+        classification set by Dr Hammad Khan (dataset owner) on 5 November 2026, informed by the November 2025
+        workshop and mission reports; they are not inferred from equipment or facility type. Individual
+        facility profiles refer back to this statement.
+      </p>
+      <h3>Public services & workforce</h3>
+      <p id="publicCoverageNote"></p>
+      <p>
+        These records combine official inspections, audits, provider websites and clearly identified media
+        accounts. Historic counts are headcounts, not current staffing or staff per shift. Cadre counts may
+        overlap and are never summed. Staffing norms are reference requirements, separate from observed
+        counts. Unknown fields remain unknown. Provider service listings do not verify operational readiness
+        or individual equipment. Original neonatal assessment values remain separate.
+      </p>
+      <div id="publicSourceList"></div>
+      <p><a href="public-records.csv" download>Download public service and workforce records (CSV)</a></p>
+      <h3>Original sources</h3>
+      <ul>
+        <li>
+          <a href="assessment.json" target="_blank">Facility Resource Assessment Report — extracted data</a>,
+          PATG workshop, 12–13 November 2025; prepared by Dr Hammad Khan and HF team. “Yes” for phototherapy
+          means some equipment, insufficient capacity.
+        </li>
+        <li>
+          HF Paediatric medical mission report, 8–15 November 2025: tertiary neonatal care at EFSTH; mission
+          paediatric surgery at EFSTH and Bansang. Surgery reflects mission activity only.
+        </li>
+        <li>
+          PATG Neonatal Capacity-Building Workshop report, 12–13 November 2025. Unattributed comments mention
+          CPAP equipment, conflicting with the structured assessment’s all-“No” CPAP column; this map uses the
+          structured table and retains that uncertainty.
+        </li>
+        <li>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6658526/" target="_blank" rel="noopener"
+            >Maina et al., 2019: public-sector health facility database</a
+          >
+          (CC BY 4.0), accessed through an
+          <a
+            href="https://services.arcgis.com/5T5nSi527N4F7luB/ArcGIS/rest/services/A_spatial_database_of_health_facilities_managed_by_the_public_health_sector_in_sub_Saharan_Africa_WFL1/FeatureServer"
+            target="_blank"
+            rel="noopener"
+            >ArcGIS mirror</a
+          >: 101 Gambian facilities. This historical inventory is not a current operational register. Njau
+          uses an explicitly approximate locality position.
+        </li>
+        <li>
+          Facility aliases reconciled against the strategic plan hospital names and
+          <a href="https://nhia.gm/hospital-network/" target="_blank">NHIA hospital network</a>.
+          <a href="https://thepoint.gm/africa/gambia/article/jammehs-memory-is-being-effaced" target="_blank"
+            >2017 hospital renamings</a
+          >;
+          <a
+            href="https://www.voicegambia.com/kanifing-general-hospital-reacts-to-the-voice-publication-saying-cash-shortage-was-d59225-not-d700000-as-reported/"
+            target="_blank"
+            >Kanifing/Serekunda alias</a
+          >. Resource data attach to these matched facilities, not to neighbouring RCH centres.
+        </li>
+        <li>
+          <a
+            href="https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf"
+            target="_blank"
+            rel="noopener"
+            >National Health Sector Strategic Plan 2021–2025</a
+          >: this view uses the intended structure in section 4.1, printed pp.100–102: minor centres/community
+          clinics → primary; major centres/district hospitals → secondary; general/teaching/specialised
+          hospitals → tertiary. Six mapped hospitals are explicitly named in section 2.7.1 (p.22). Other tier
+          assignments derive from historical facility types and require validation. Njau remains unclassified
+          for general care.
+        </li>
+        <li>
+          Country outline:
+          <a href="https://github.com/datasets/geo-countries" target="_blank" rel="noopener"
+            >Natural Earth / geo-countries</a
+          >. Basemap: © OpenStreetMap contributors.
+        </li>
+      </ul>
+      <h3>Two distinct care-level classifications</h3>
+      <p>
+        <b>Neonatal services:</b> November 2025 workshop context and the clinical classification described
+        above: Bansang, Farafenni, Bwiam, Kanifing and Bundung MCH are secondary; EFSTH is tertiary (also
+        documented in the mission report). These classifications are separate from the workshop equipment
+        table. The neonatal view includes 14 retained assessment facilities: eight primary, five secondary and
+        one tertiary. The eight previously unclassified assessment facilities were designated primary neonatal
+        units in that classification. One facility from the source report has been excluded at the dataset
+        owner’s request. Neonatal levels follow that clinical classification rather than being inferred from
+        equipment or general facility type. The wider 102-facility dataset appears only in the
+        general-services view.
+      </p>
+      <p>
+        <b>General services:</b> the strategic plan grouping described above. Generic clinic records are
+        grouped provisionally from their historical source type, not from a current service audit. A general
+        tertiary designation does not imply tertiary neonatal capability.
+      </p>
+      <h3>Strategic plan: source discrepancies</h3>
+      <p>
+        Section 2.7.2 (printed p.23) groups both major and minor health centres as secondary. The executive
+        summary and section 4.1 instead place minor centres at primary level. The app consistently follows
+        section 4.1’s intended structure and does not present it as a verified current operational
+        classification. Section 2.7.1 also names Brikama, Soma, Essau and Basse as regional hospitals; this
+        view retains the explicit section 4.1 major-centre/district grouping for these records, with that
+        ambiguity stated in their profiles. The named Sheikh Zayed specialised hospital is absent from the
+        historical map dataset, reinforcing that this is incomplete coverage.
+      </p>
+      <h3>Coverage & interpretation</h3>
+      <p id="coverageNote"></p>
+      <p>
+        Missing data means unknown, not absent. Coordinates marked approximate are locality-level placements,
+        not confirmed facility entrances. This is a planning and exploration tool, not a live referral
+        directory.
+      </p>
+    </dialog>
+    <script src="vendor/leaflet.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
