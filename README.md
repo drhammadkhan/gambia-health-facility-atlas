@@ -1,13 +1,117 @@
 # The Gambia Health Facility Atlas
 
-Static Leaflet app. Serve `dist/` over HTTP, e.g. `python3 -m http.server 8045 --directory dist`.
+An interactive map for exploring health facilities across The Gambia, with separate views of national health-system levels and neonatal care.
 
-102 facilities: 101 records from the historical Maina et al. public-sector database plus Njau. The neonatal view contains 14 retained workshop assessment facilities; one facility was removed from the app dataset at the owner's request. The original source documents still cover 15 facilities and have not been edited. The general-services view contains all 102 records. Coverage is incomplete, not a current authoritative register.
+**[Explore the live atlas →](https://gambia-health-facility-atlas.aquaantelope.chatgpt.site/)**
 
-Separate general and neonatal classification fields include source evidence. General grouping follows strategic plan section 4.1, with discrepancies against section 2.7 disclosed in the app. Six named general/teaching hospitals are tertiary; seven major/district records are secondary; 88 historical clinics/minor centres are provisionally primary; Njau is unclassified. Neonatal levels follow Dr Hammad Khan’s classifications: eight primary, five secondary and EFSTH tertiary. The eight previously unclassified assessment facilities were designated primary on 5 November 2026. General-service levels are separate.
+![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)
+![Leaflet](https://img.shields.io/badge/Map-Leaflet-199900?logo=leaflet&logoColor=white)
+![Python](https://img.shields.io/badge/Data-Python_3-3776AB?logo=python&logoColor=white)
 
-`build-data.py` regenerates `dist/facilities.json` and `dist/assessment.json` from the preserved source `data/public-facilities-2019.geojson` and transcribed report data. Excluded facility data have been removed from the generator and generated files. CSV exports include both classifications. All map circles have radius 7; selection uses an outline only. Leaflet, the boundary and facility data are bundled; OpenStreetMap tiles and optional fonts require internet.
+## What you can explore
 
-The initial view is National Health facilities (general-service classifications). The second selector option is labelled Neonatal heatlh facilities, as requested. Switching contexts and resetting filters retain the existing multi-select behaviour.
+- **102 mapped facilities** in the national view, with search and multiple care levels selectable at once.
+- **14 neonatal assessment facilities**, classified independently of their general-service level.
+- Filters for reported services, neonatal equipment and infrastructure, and published staff counts.
+- Facility profiles with dated observations and source links, plus expandable classification and location evidence.
+- CSV downloads of filtered facilities and public service/workforce records.
 
-Public enrichment: `data/public-enrichment.json` contains source-linked service observations and aggregate staff counts. The generator merges those records without changing care levels or neonatal equipment data, emits `dist/public-sources.json`, and creates the normalized public-record export `dist/public-records.csv`. Service status describes the observation date, not live operation. The April 2023 NAO audit reflects December 2022 observations; Appendix 2 has thirteen facility rows. Numeric staffing values are retained independently of inconsistent narrative conclusions (notably Brikama). Provider websites are undated and marked unverified; media accounts are identified as such. Keneba's published suspension notice is retained alongside its directory. No individual staff data or total from overlapping cadre counts is added.
+All map circles have the same size. Colour represents the care level in the selected view; selecting a facility adds an outline.
+
+## Run locally
+
+No Node packages, API keys or database are required. With Python 3 installed:
+
+```bash
+git clone https://github.com/drhammadkhan/gambia-health-facility-atlas.git
+cd gambia-health-facility-atlas
+python3 -m http.server 8045 --directory dist
+```
+
+Open **http://localhost:8045**. Serve the app over HTTP rather than opening `index.html` directly, because it loads its data with `fetch`.
+
+Leaflet and the data files are bundled. OpenStreetMap tiles and optional web fonts need an internet connection.
+
+## Two different care-level classifications
+
+A hospital's general-service level does **not** establish its neonatal capability.
+
+| View | Classification basis | Current mapped breakdown |
+| --- | --- | --- |
+| National health facilities | Intended structure in the National Health Sector Strategic Plan 2021–2025, §4.1; historical facility types used where necessary | 88 primary · 7 secondary · 6 tertiary · 1 unclassified |
+| Neonatal health facilities | November 2025 assessment context and subsequent clinical clarification by Dr Hammad Khan | 8 primary · 5 secondary · 1 tertiary |
+
+The strategic plan is inconsistent about the placement of minor health centres (§2.7 versus §4.1). The atlas follows §4.1 and records the discrepancy. Historical type-based assignments are provisional, not current verified designations. Njau remains unclassified for general services.
+
+Neonatal secondary units are Bansang, Farafenni, Bwiam, Kanifing and Bundung MCH. EFSTH is tertiary. The remaining eight retained assessment facilities were designated primary neonatal units by Dr Hammad Khan on 5 November 2026. One facility from the original 15-facility assessment was excluded at the dataset owner's request.
+
+## Data and provenance
+
+| Dataset | What it contributes | Important dates and limitations |
+| --- | --- | --- |
+| [Maina et al., public-sector health facility database](https://pmc.ncbi.nlm.nih.gov/articles/PMC6658526/) | Historical facility inventory and coordinates | Published 2019; 101 Gambian records, plus Njau added from the supplied assessment. Not a current master register. |
+| [National Health Sector Strategic Plan 2021–2025](https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GMB_Gambia_National-Health-Sector-Strategic-Plan_2021-2025.pdf) | General care-level framework | §4.1, printed pp.100–102; named hospitals in §2.7.1, p.22. |
+| PATG workshop and HF mission reports | Neonatal equipment, infrastructure and mission activity | November 2025; manually transcribed. Original Word/PDF reports are not included in this repository. |
+| [National Audit Office EmOC follow-up audit](https://nao.gm/wp-content/uploads/2025/04/FOLLOW-UP-EmOC.pdf) | Services and midwife counts across 13 facilities | Report dated April 2023; observations from December 2022. The URL's 2025 upload path is not the observation date. |
+| [National Assembly facility inspection report](https://nawatch.org/wp-content/uploads/2023/04/FINAL-REPORT-OF-THE-SELECT-COMMITTEE-ON-HEALTH.pdf) | Selected facility services and staffing | Visits in June–July 2022; public mirror. |
+| Provider websites and attributed media reports | Additional service listings and aggregate staff counts | Dates vary; individual source links and scope are retained in each record. |
+
+The public enrichment, reviewed on **5 November 2026**, contains service records for **22 facilities** and staffing counts for **19**. The complete source catalogue is available in the app's **Data & sources** dialog and in [`dist/public-sources.json`](dist/public-sources.json).
+
+### Interpreting the records
+
+- **“unavailable” for missing information means no record is available.** It is not evidence that the facility lacks that service. Facilities outside the neonatal assessment show a single unavailable assessment entry.
+- Service observations describe their source date, not live operational readiness. Undated provider listings are marked unverified.
+- Staff figures are published headcounts with a stated scope, not staff per shift or full-time equivalents. Counts of midwives, doctors or all employees are kept distinct; overlapping categories are never summed.
+- Staffing norms are reference requirements, separate from observed staff numbers. Conflicting numeric and narrative findings are retained with notes rather than converted into unsupported staffing deficits.
+- Phototherapy reported present in the workshop was insufficient. CPAP follows the structured assessment table; conflicting workshop comments remain noted.
+- Surgery associated with the November 2025 mission does not establish ongoing surgical availability.
+- Some coordinates are approximate locality positions. Private, new, closed, renamed or unmapped facilities may be missing.
+
+This atlas supports planning and exploration; it is not a live referral directory or an authoritative current national facility register.
+
+## Project structure
+
+```text
+.
+├── build-data.py                 # Rebuilds the app's data and public-record CSV
+├── data/
+│   ├── public-facilities-2019.geojson  # Preserved historical inventory
+│   └── public-enrichment.json    # Dated services, workforce records and sources
+├── dist/                        # Complete deployable static app
+│   ├── index.html
+│   ├── app.js
+│   ├── style.css
+│   ├── facilities.json           # Merged inventory, classifications and records
+│   ├── assessment.json          # Retained neonatal assessment data
+│   ├── public-sources.json       # Public source catalogue
+│   ├── public-records.csv        # Normalized service/workforce export
+│   ├── gambia-boundary.json
+│   └── vendor/                  # Bundled Leaflet
+└── .openai/hosting.json          # Existing Sites hosting configuration
+```
+
+## Update the data
+
+1. Add or correct service and staffing observations in `data/public-enrichment.json`, retaining the source, observation date, scope and any uncertainty.
+2. For inventory, care-level or neonatal-assessment changes, update the relevant mappings or transcribed rows in `build-data.py`.
+3. Rebuild from the repository root:
+
+   ```bash
+   python3 build-data.py
+   node --check dist/app.js
+   ```
+
+4. Review the resulting diff and inspect the affected facility profiles and filters in the local app. Commit both the source data and generated files.
+
+The data generator uses only Python's standard library. Node.js is optional for the JavaScript syntax check; it is not needed to run the app.
+
+## Hosting
+
+Deploy the contents of `dist/` to a static web host. The current production app is hosted with Sites; `.openai/hosting.json` retains that existing project identity. Pushing to this GitHub repository alone does not update the live atlas.
+
+## Attribution and reuse
+
+Facility data from Maina et al. are published under **CC BY 4.0**; retain attribution when reusing them. The boundary derives from Natural Earth via [geo-countries](https://github.com/datasets/geo-countries). Basemap tiles are © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). Leaflet retains its upstream license notice in the bundled files.
+
+Other source documents and websites retain their respective rights. This repository does not grant a blanket license to third-party material, and no project-wide software license has yet been selected.
